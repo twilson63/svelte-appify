@@ -1,0 +1,29 @@
+{
+  "name": "svelte-appify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "budo src/index.js -live --css https://unpkg.com/tachyons -- -t sveltify",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node scripts/build",
+    "start": "serve dist -s"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "budo": "^11.3.2",
+    "ejs": "^2.6.1",
+    "shelljs": "^0.8.2",
+    "short-uuid": "^3.0.0",
+    "strftime": "^0.10.0",
+    "sveltify": "^2.0.0",
+    "watchify": "^3.11.0"
+  },
+  "dependencies": {
+    "insert-css": "^2.0.0",
+    "serve": "^10.0.2"
+  }
+}
